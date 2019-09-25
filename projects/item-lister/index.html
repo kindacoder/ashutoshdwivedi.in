@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Item lister</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <header id="main-header" class="bg-primary text-center text-white p-2 mb-3">
+                <div class="container">
+
+
+                    <div class="row">
+                        <div class="col-9 ">
+                            <h1 id="header-title" class="">List Items</h1>
+
+                        </div>
+                        <div class="col-3 mt-2">
+                            <input id="filter" type="text " class="form-control " placeholder="Search item... " aria-label="Search item... ">
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </header>
+        </div>
+        <div class="container">
+            <div id="main" class="card card-body">
+                <h2 class="title ">Add Items</h2>
+
+                <div class="row ">
+                    <div class="col-7">
+
+                        <form class="form mb-3">
+                            <input type="text" class="form-control" placeholder="add item " id="input-form">
+
+                        </form>
+
+                    </div>
+                    <div class="col-5">
+                        <form>
+                            <input type="submit" class="btn btn-dark" value="Submit" id="submit-form">
+                        </form>
+
+                    </div>
+
+                </div>
+                <h2 class="title ">Items</h2>
+                <ul id="items" class="list-group">
+                    <li class="list-group-item">Item 1
+                        <button class="btn btn-danger btn-sm delete float-right">
+                        X</button><button class="btn btn-primary mr-3 btn-sm  float-right">
+                                EDIT</button></li>
+                    <li class="list-group-item">Item 2 <button class="btn btn-danger btn-sm delete float-right">
+                            X</button><button class="btn btn-primary mr-3 btn-sm  float-right">
+                                    EDIT</button></li>
+                    <li class="list-group-item">Item 3 <button class="btn btn-danger btn-sm delete float-right">
+                            X</button><button class="btn btn-primary mr-3 btn-sm  float-right">
+                                    EDIT</button></li>
+                    <li class="list-group-item">Item 4 <button class="btn btn-danger btn-sm delete float-right">
+                            X</button><button class="btn btn-primary mr-3 btn-sm  float-right">
+                                    EDIT</button></li>
+                </ul>
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <!-- Optional JavaScript -->
+        <script src="js/script.js "></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js " integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh " crossorigin="anonymous "></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js " integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ " crossorigin="anonymous "></script>
+    </body>
+
+</html>
